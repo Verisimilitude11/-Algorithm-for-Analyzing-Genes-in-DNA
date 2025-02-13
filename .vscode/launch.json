@@ -1,5 +1,6 @@
 {
   "configurations": [
+  
     {
       "type": "java",
       "name": "DNADataUploader",
@@ -20,7 +21,7 @@
       "request": "launch",
       "mainClass": "DNAnalyzer.Main",
       "projectName": "DNAnalyzer",
-      "args": "assets/dna/random/dnalong.fa --amino=ser --min=16450 --max=520218 -r --rcomplement --version"
+      "args": "assets/dna/random/dnalong.fa --amino=ser --min=16450 --max=520218 -r --rcomplement --version --mutate 10"
     }
   ]
 }
